@@ -26,4 +26,22 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)convert:(id)sender {
+    double metric = [_textConversion.text doubleValue];
+    double imperial = metric * .393701;
+    
+    NSString *resultString = [[NSString alloc] initWithFormat: @"%.2f Inches",imperial];
+    _resultLabel.text = resultString;
+}
+- (IBAction)textFieldReturn:(id)sender {
+    [sender resignFirstResponder];
+}
+
+- (IBAction)backgroundTouched:(id)sender {
+    [_textConversion resignFirstResponder];
+}
+
+- (IBAction)buttonTouched:(id)sender {
+    [_textConversion resignFirstResponder];
+}
 @end

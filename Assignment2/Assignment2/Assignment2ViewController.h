@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface Assignment2ViewController : UIViewController
+- (IBAction)convert:(id)sender;
+@property (strong, nonatomic) IBOutlet UITextField *textConversion;
+@property (strong, nonatomic) IBOutlet UILabel *resultLabel;
+- (IBAction)textFieldReturn:(id)sender;
+- (IBAction)backgroundTouched:(id)sender;
+- (IBAction)buttonTouched:(id)sender;
 
 @end

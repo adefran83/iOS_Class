@@ -1,2 +1,7 @@
 *.zip
+<<<<<<< HEAD
 *.DS_Store
+=======
+
+.DS_Store
+>>>>>>> Assignment 2 pt 2
