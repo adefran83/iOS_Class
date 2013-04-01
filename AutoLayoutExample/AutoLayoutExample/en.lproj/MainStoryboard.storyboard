@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Auto Layout Example View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="AutoLayoutExampleViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Customer Record:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ovT-kJ-DML">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ecn-IQ-2zM">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QCq-yQ-LGf">
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="76" type="user" id="tPZ-JC-T30"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="New Photo">
+                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FUg-Ik-VUW">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="140" id="d7K-2Q-LpK"/>
+                                            <constraint firstAttribute="height" constant="235" id="jpa-48-k5w"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="FUg-Ik-VUW" firstAttribute="top" secondItem="ecn-IQ-2zM" secondAttribute="top" constant="20" symbolic="YES" type="default" id="HIf-GO-uxG"/>
+                                    <constraint firstAttribute="centerX" secondItem="FUg-Ik-VUW" secondAttribute="centerX" type="user" id="NOY-Wa-Hf8"/>
+                                    <constraint firstItem="QCq-yQ-LGf" firstAttribute="top" secondItem="FUg-Ik-VUW" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Z3Q-BE-7Xb"/>
+                                    <constraint firstAttribute="centerX" secondItem="QCq-yQ-LGf" secondAttribute="centerX" type="user" id="ys2-Mc-Dlx"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6aY-jx-rja">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ecn-IQ-2zM" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="60O-HS-m3Q"/>
+                            <constraint firstItem="6aY-jx-rja" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="user" id="Awe-GI-MWH"/>
+                            <constraint firstAttribute="centerX" secondItem="6aY-jx-rja" secondAttribute="centerX" priority="500" type="user" id="MYd-QZ-cO9"/>
+                            <constraint firstAttribute="bottom" secondItem="ecn-IQ-2zM" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="VKO-Ed-MB8"/>
+                            <constraint firstItem="ovT-kJ-DML" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="e0D-Q4-EBd"/>
+                            <constraint firstItem="6aY-jx-rja" firstAttribute="leading" secondItem="ovT-kJ-DML" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="g3S-XW-mfc"/>
+                            <constraint firstItem="ovT-kJ-DML" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="user" id="oQW-p8-fAf"/>
+                            <constraint firstItem="ecn-IQ-2zM" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="user" id="saJ-dV-2xE"/>
+                            <constraint firstItem="ecn-IQ-2zM" firstAttribute="top" secondItem="3" secondAttribute="top" constant="59" id="sxm-dK-giY"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="AutoLayoutExampleViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AutoLayoutExampleViewController.h"/>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
