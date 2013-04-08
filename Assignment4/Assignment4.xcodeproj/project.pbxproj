@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC2127B217123EB6003FD5FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2127B117123EB6003FD5FD /* UIKit.framework */; };
+		EC2127B417123EB6003FD5FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2127B317123EB6003FD5FD /* Foundation.framework */; };
+		EC2127B617123EB6003FD5FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2127B517123EB6003FD5FD /* CoreGraphics.framework */; };
+		EC2127BC17123EB6003FD5FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC2127BA17123EB6003FD5FD /* InfoPlist.strings */; };
+		EC2127BE17123EB6003FD5FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2127BD17123EB6003FD5FD /* main.m */; };
+		EC2127C217123EB6003FD5FD /* Assignment4AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2127C117123EB6003FD5FD /* Assignment4AppDelegate.m */; };
+		EC2127C417123EB6003FD5FD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EC2127C317123EB6003FD5FD /* Default.png */; };
+		EC2127C617123EB6003FD5FD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC2127C517123EB6003FD5FD /* Default@2x.png */; };
+		EC2127C817123EB6003FD5FD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC2127C717123EB6003FD5FD /* Default-568h@2x.png */; };
+		EC2127CB17123EB7003FD5FD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2127C917123EB7003FD5FD /* MainStoryboard.storyboard */; };
+		EC2127D617123EE7003FD5FD /* GroceryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2127D517123EE7003FD5FD /* GroceryTableViewController.m */; };
+		EC2127D917123F92003FD5FD /* GroceryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2127D817123F92003FD5FD /* GroceryTableViewCell.m */; };
+		EC2127DE1712439B003FD5FD /* pasta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC2127DA1712439B003FD5FD /* pasta.jpg */; };
+		EC2127DF1712439B003FD5FD /* pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = EC2127DB1712439B003FD5FD /* pizza.png */; };
+		EC2127E01712439B003FD5FD /* salad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC2127DC1712439B003FD5FD /* salad.jpg */; };
+		EC2127E11712439B003FD5FD /* sandwich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC2127DD1712439B003FD5FD /* sandwich.jpg */; };
+		EC2127E3171243A4003FD5FD /* dessert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC2127E2171243A4003FD5FD /* dessert.jpg */; };
+		EC2127E61712459D003FD5FD /* GroceryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2127E51712459D003FD5FD /* GroceryDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC2127AE17123EB6003FD5FD /* Assignment4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2127B117123EB6003FD5FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC2127B317123EB6003FD5FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC2127B517123EB6003FD5FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC2127B917123EB6003FD5FD /* Assignment4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Assignment4-Info.plist"; sourceTree = "<group>"; };
+		EC2127BB17123EB6003FD5FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC2127BD17123EB6003FD5FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC2127BF17123EB6003FD5FD /* Assignment4-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Assignment4-Prefix.pch"; sourceTree = "<group>"; };
+		EC2127C017123EB6003FD5FD /* Assignment4AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Assignment4AppDelegate.h; sourceTree = "<group>"; };
+		EC2127C117123EB6003FD5FD /* Assignment4AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assignment4AppDelegate.m; sourceTree = "<group>"; };
+		EC2127C317123EB6003FD5FD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EC2127C517123EB6003FD5FD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EC2127C717123EB6003FD5FD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EC2127CA17123EB7003FD5FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EC2127D417123EE7003FD5FD /* GroceryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroceryTableViewController.h; path = ../GroceryTableViewController.h; sourceTree = "<group>"; };
+		EC2127D517123EE7003FD5FD /* GroceryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GroceryTableViewController.m; path = ../GroceryTableViewController.m; sourceTree = "<group>"; };
+		EC2127D717123F92003FD5FD /* GroceryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroceryTableViewCell.h; sourceTree = "<group>"; };
+		EC2127D817123F92003FD5FD /* GroceryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroceryTableViewCell.m; sourceTree = "<group>"; };
+		EC2127DA1712439B003FD5FD /* pasta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pasta.jpg; sourceTree = "<group>"; };
+		EC2127DB1712439B003FD5FD /* pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza.png; sourceTree = "<group>"; };
+		EC2127DC1712439B003FD5FD /* salad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = salad.jpg; sourceTree = "<group>"; };
+		EC2127DD1712439B003FD5FD /* sandwich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sandwich.jpg; sourceTree = "<group>"; };
+		EC2127E2171243A4003FD5FD /* dessert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dessert.jpg; sourceTree = "<group>"; };
+		EC2127E41712459D003FD5FD /* GroceryDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroceryDetailViewController.h; sourceTree = "<group>"; };
+		EC2127E51712459D003FD5FD /* GroceryDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroceryDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC2127AB17123EB6003FD5FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2127B217123EB6003FD5FD /* UIKit.framework in Frameworks */,
+				EC2127B417123EB6003FD5FD /* Foundation.framework in Frameworks */,
+				EC2127B617123EB6003FD5FD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC2127A517123EB6003FD5FD = {
+			isa = PBXGroup;
+			children = (
+				EC2127B717123EB6003FD5FD /* Assignment4 */,
+				EC2127B017123EB6003FD5FD /* Frameworks */,
+				EC2127AF17123EB6003FD5FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC2127AF17123EB6003FD5FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC2127AE17123EB6003FD5FD /* Assignment4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC2127B017123EB6003FD5FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC2127B117123EB6003FD5FD /* UIKit.framework */,
+				EC2127B317123EB6003FD5FD /* Foundation.framework */,
+				EC2127B517123EB6003FD5FD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC2127B717123EB6003FD5FD /* Assignment4 */ = {
+			isa = PBXGroup;
+			children = (
+				EC2127D417123EE7003FD5FD /* GroceryTableViewController.h */,
+				EC2127D517123EE7003FD5FD /* GroceryTableViewController.m */,
+				EC2127E41712459D003FD5FD /* GroceryDetailViewController.h */,
+				EC2127E51712459D003FD5FD /* GroceryDetailViewController.m */,
+				EC2127E2171243A4003FD5FD /* dessert.jpg */,
+				EC2127DA1712439B003FD5FD /* pasta.jpg */,
+				EC2127DB1712439B003FD5FD /* pizza.png */,
+				EC2127DC1712439B003FD5FD /* salad.jpg */,
+				EC2127DD1712439B003FD5FD /* sandwich.jpg */,
+				EC2127C017123EB6003FD5FD /* Assignment4AppDelegate.h */,
+				EC2127C117123EB6003FD5FD /* Assignment4AppDelegate.m */,
+				EC2127C917123EB7003FD5FD /* MainStoryboard.storyboard */,
+				EC2127D717123F92003FD5FD /* GroceryTableViewCell.h */,
+				EC2127D817123F92003FD5FD /* GroceryTableViewCell.m */,
+				EC2127B817123EB6003FD5FD /* Supporting Files */,
+			);
+			path = Assignment4;
+			sourceTree = "<group>";
+		};
+		EC2127B817123EB6003FD5FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC2127B917123EB6003FD5FD /* Assignment4-Info.plist */,
+				EC2127BA17123EB6003FD5FD /* InfoPlist.strings */,
+				EC2127BD17123EB6003FD5FD /* main.m */,
+				EC2127BF17123EB6003FD5FD /* Assignment4-Prefix.pch */,
+				EC2127C317123EB6003FD5FD /* Default.png */,
+				EC2127C517123EB6003FD5FD /* Default@2x.png */,
+				EC2127C717123EB6003FD5FD /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC2127AD17123EB6003FD5FD /* Assignment4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2127D117123EB7003FD5FD /* Build configuration list for PBXNativeTarget "Assignment4" */;
+			buildPhases = (
+				EC2127AA17123EB6003FD5FD /* Sources */,
+				EC2127AB17123EB6003FD5FD /* Frameworks */,
+				EC2127AC17123EB6003FD5FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Assignment4;
+			productName = Assignment4;
+			productReference = EC2127AE17123EB6003FD5FD /* Assignment4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC2127A617123EB6003FD5FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Assignment4;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Anthony DeFrancesco";
+			};
+			buildConfigurationList = EC2127A917123EB6003FD5FD /* Build configuration list for PBXProject "Assignment4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC2127A517123EB6003FD5FD;
+			productRefGroup = EC2127AF17123EB6003FD5FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC2127AD17123EB6003FD5FD /* Assignment4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC2127AC17123EB6003FD5FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2127BC17123EB6003FD5FD /* InfoPlist.strings in Resources */,
+				EC2127C417123EB6003FD5FD /* Default.png in Resources */,
+				EC2127C617123EB6003FD5FD /* Default@2x.png in Resources */,
+				EC2127C817123EB6003FD5FD /* Default-568h@2x.png in Resources */,
+				EC2127CB17123EB7003FD5FD /* MainStoryboard.storyboard in Resources */,
+				EC2127DE1712439B003FD5FD /* pasta.jpg in Resources */,
+				EC2127DF1712439B003FD5FD /* pizza.png in Resources */,
+				EC2127E01712439B003FD5FD /* salad.jpg in Resources */,
+				EC2127E11712439B003FD5FD /* sandwich.jpg in Resources */,
+				EC2127E3171243A4003FD5FD /* dessert.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC2127AA17123EB6003FD5FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2127BE17123EB6003FD5FD /* main.m in Sources */,
+				EC2127C217123EB6003FD5FD /* Assignment4AppDelegate.m in Sources */,
+				EC2127D617123EE7003FD5FD /* GroceryTableViewController.m in Sources */,
+				EC2127D917123F92003FD5FD /* GroceryTableViewCell.m in Sources */,
+				EC2127E61712459D003FD5FD /* GroceryDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC2127BA17123EB6003FD5FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC2127BB17123EB6003FD5FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC2127C917123EB7003FD5FD /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC2127CA17123EB7003FD5FD /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC2127CF17123EB7003FD5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC2127D017123EB7003FD5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC2127D217123EB7003FD5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Assignment4/Assignment4-Prefix.pch";
+				INFOPLIST_FILE = "Assignment4/Assignment4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC2127D317123EB7003FD5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Assignment4/Assignment4-Prefix.pch";
+				INFOPLIST_FILE = "Assignment4/Assignment4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC2127A917123EB6003FD5FD /* Build configuration list for PBXProject "Assignment4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2127CF17123EB7003FD5FD /* Debug */,
+				EC2127D017123EB7003FD5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2127D117123EB7003FD5FD /* Build configuration list for PBXNativeTarget "Assignment4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2127D217123EB7003FD5FD /* Debug */,
+				EC2127D317123EB7003FD5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC2127A617123EB6003FD5FD /* Project object */;
+}
