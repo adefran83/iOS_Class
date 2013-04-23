@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Assignment6 View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="Assignment6ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Course Code" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RkD-1W-Rlh">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Yyj-PU-Hcu">
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Credit Hours" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oos-KT-UVp">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wHU-bk-3Wo">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Save">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="saveData:" destination="2" eventType="touchUpInside" id="rMK-j7-uw5"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T5R-Bb-bbb">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="58" id="1Qp-cj-LwD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Grade" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahC-uR-jGz">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jVp-AE-PXg">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="54" id="tZA-Mg-No4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DLN-NZ-REf">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Find">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="findData:" destination="2" eventType="touchUpInside" id="JhC-iu-8dC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bfB-Oa-Bvy">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Delete">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="deleteData:" destination="2" eventType="touchUpInside" id="5sX-Pq-3Ej"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k8u-9V-qjT">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="HqD-cn-XQn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Oos-KT-UVp" firstAttribute="baseline" secondItem="T5R-Bb-bbb" secondAttribute="baseline" type="default" id="054-Uj-ozI"/>
+                            <constraint firstItem="k8u-9V-qjT" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="2mZ-i6-eKA"/>
+                            <constraint firstItem="bfB-Oa-Bvy" firstAttribute="leading" secondItem="Yyj-PU-Hcu" secondAttribute="leading" type="default" id="5Pd-F2-BQ1"/>
+                            <constraint firstItem="DLN-NZ-REf" firstAttribute="baseline" secondItem="bfB-Oa-Bvy" secondAttribute="baseline" type="default" id="6Hi-Iq-MxB"/>
+                            <constraint firstItem="Yyj-PU-Hcu" firstAttribute="top" secondItem="3" secondAttribute="top" constant="51" id="AvP-VP-GQ3"/>
+                            <constraint firstAttribute="trailing" secondItem="k8u-9V-qjT" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="CfD-GU-f2R"/>
+                            <constraint firstItem="bfB-Oa-Bvy" firstAttribute="top" secondItem="T5R-Bb-bbb" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="E7B-xJ-m9W"/>
+                            <constraint firstItem="wHU-bk-3Wo" firstAttribute="baseline" secondItem="bfB-Oa-Bvy" secondAttribute="baseline" type="default" id="HeU-IO-f5a"/>
+                            <constraint firstItem="T5R-Bb-bbb" firstAttribute="top" secondItem="3" secondAttribute="top" constant="84" id="Kcg-I0-5Ac"/>
+                            <constraint firstItem="jVp-AE-PXg" firstAttribute="top" secondItem="3" secondAttribute="top" constant="83" id="KkY-mj-QDg"/>
+                            <constraint firstItem="RkD-1W-Rlh" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="L3P-Yp-bzv"/>
+                            <constraint firstAttribute="trailing" secondItem="DLN-NZ-REf" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Mv7-s4-Ijm"/>
+                            <constraint firstItem="k8u-9V-qjT" firstAttribute="top" secondItem="wHU-bk-3Wo" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="OU8-qJ-DJf"/>
+                            <constraint firstAttribute="trailing" secondItem="Yyj-PU-Hcu" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Ps6-lj-pwk"/>
+                            <constraint firstItem="Oos-KT-UVp" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="RZ0-jz-57b"/>
+                            <constraint firstItem="ahC-uR-jGz" firstAttribute="leading" secondItem="T5R-Bb-bbb" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="Ujv-xJ-6E8"/>
+                            <constraint firstItem="RkD-1W-Rlh" firstAttribute="top" secondItem="3" secondAttribute="top" constant="55" id="VfU-5a-L0N"/>
+                            <constraint firstItem="ahC-uR-jGz" firstAttribute="centerX" secondItem="Yyj-PU-Hcu" secondAttribute="centerX" type="default" id="Z3h-l0-Nds"/>
+                            <constraint firstItem="jVp-AE-PXg" firstAttribute="centerY" secondItem="ahC-uR-jGz" secondAttribute="centerY" type="default" id="ZpI-qN-xZp"/>
+                            <constraint firstItem="Yyj-PU-Hcu" firstAttribute="leading" secondItem="RkD-1W-Rlh" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="cSX-9q-bXQ"/>
+                            <constraint firstItem="T5R-Bb-bbb" firstAttribute="leading" secondItem="Oos-KT-UVp" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="lhA-D1-8Ux"/>
+                            <constraint firstAttribute="trailing" secondItem="jVp-AE-PXg" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="umC-zm-NaL"/>
+                            <constraint firstItem="wHU-bk-3Wo" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="xsz-tP-3Yz"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="courseText" destination="Yyj-PU-Hcu" id="2oy-qB-Sdq"/>
+                        <outlet property="creditText" destination="T5R-Bb-bbb" id="SNZ-k6-7dR"/>
+                        <outlet property="gradeText" destination="jVp-AE-PXg" id="zQN-et-4Og"/>
+                        <outlet property="statusText" destination="k8u-9V-qjT" id="dRb-7N-axm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="Assignment6ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/Assignment6ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="deleteData:"/>
+                <relationship kind="action" name="findData:"/>
+                <relationship kind="action" name="saveData:"/>
+                <relationship kind="outlet" name="courseText" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="creditText" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="gradeText" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="statusText" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
