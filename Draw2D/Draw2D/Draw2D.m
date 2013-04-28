@@ -113,7 +113,7 @@
     CIFilter *sepiaFilter = [CIFilter filterWithName:@"CISepiaTone"];
     [sepiaFilter setDefaults];
     [sepiaFilter setValue:cimage forKey:@"inputImage"];
-    [sepiaFilter setValue:[NSNumber numberWithFloat:0.8f] forKey:@"inputeIntensity"];
+    [sepiaFilter setValue:[NSNumber numberWithFloat:0.8f] forKey:@"inputIntensity"];
     CIImage *image = [sepiaFilter outputImage];
     CIContext *context = [CIContext contextWithOptions:nil];
     CGImageRef cgImage = [context createCGImage:image fromRect:image.extent];

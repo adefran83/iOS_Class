@@ -20,6 +20,7 @@
 		EC28DAD6172C2B2800E1B32D /* Draw2DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC28DAD5172C2B2800E1B32D /* Draw2DViewController.m */; };
 		EC28DADE172C2B6900E1B32D /* Draw2D.m in Sources */ = {isa = PBXBuildFile; fileRef = EC28DADD172C2B6900E1B32D /* Draw2D.m */; };
 		EC28DAE0172C345F00E1B32D /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = EC28DADF172C345F00E1B32D /* profile.png */; };
+		EC28DB11172D7B5B00E1B32D /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC28DB10172D7B5B00E1B32D /* CoreImage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		EC28DADC172C2B6900E1B32D /* Draw2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Draw2D.h; sourceTree = "<group>"; };
 		EC28DADD172C2B6900E1B32D /* Draw2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Draw2D.m; sourceTree = "<group>"; };
 		EC28DADF172C345F00E1B32D /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		EC28DB10172D7B5B00E1B32D /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC28DB11172D7B5B00E1B32D /* CoreImage.framework in Frameworks */,
 				EC28DABA172C2B2800E1B32D /* UIKit.framework in Frameworks */,
 				EC28DABC172C2B2800E1B32D /* Foundation.framework in Frameworks */,
 				EC28DABE172C2B2800E1B32D /* CoreGraphics.framework in Frameworks */,
@@ -61,6 +64,7 @@
 		EC28DAAD172C2B2800E1B32D = {
 			isa = PBXGroup;
 			children = (
+				EC28DB10172D7B5B00E1B32D /* CoreImage.framework */,
 				EC28DABF172C2B2800E1B32D /* Draw2D */,
 				EC28DAB8172C2B2800E1B32D /* Frameworks */,
 				EC28DAB7172C2B2800E1B32D /* Products */,
@@ -309,6 +313,7 @@
 				EC28DADB172C2B2800E1B32D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
