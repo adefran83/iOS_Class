@@ -56,7 +56,7 @@
 //    //fill in the diamond
 //    CGContextSetFillColorWithColor(context, [UIColor magentaColor].CGColor);
 //    CGContextFillPath(context);
-    //Rectangle
+//Rectangle
 //    CGContextRef context = UIGraphicsGetCurrentContext();
 //    CGContextSetLineWidth(context, 4.0);
 //    CGContextSetStrokeColorWithColor(context, [UIColor purpleColor].CGColor);
@@ -67,12 +67,12 @@
 //    CGContextSetFillColorWithColor(context, [UIColor grayColor].CGColor);
 //    CGContextFillRect(context, rectangle);
     //ellipse
-//    CGContextRef context = UIGraphicsGetCurrentContext();
-//    CGContextSetLineWidth(context, 4.0);
-//    CGContextSetStrokeColorWithColor(context, [UIColor greenColor].CGColor);
-//    CGRect rectangle = CGRectMake(60, 170, 200, 80);
-//    CGContextAddEllipseInRect(context, rectangle);
-//    CGContextStrokePath(context);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextSetLineWidth(context, 4.0);
+    CGContextSetStrokeColorWithColor(context, [UIColor greenColor].CGColor);
+    CGRect rectangle = CGRectMake(60, 170, 200, 80);
+    CGContextAddEllipseInRect(context, rectangle);
+    CGContextStrokePath(context);
     //Arc
 //    CGContextRef context = UIGraphicsGetCurrentContext();
 //    CGContextSetLineWidth(context, 4.0);
